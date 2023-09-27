@@ -14,3 +14,6 @@ Created two vms ib two different regions using alias in providers
 - Delete sd3
 deleted s3 in 2 ways :terraform destroy -target=resource.name 
     by removing the s3 in list of variables and terraform apply
+
+- created vpc and  associated to ec2
+   security group id must be given lin list to ec2
