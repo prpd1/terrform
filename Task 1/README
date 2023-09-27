@@ -6,7 +6,7 @@ Using terraform,
 created 2 vms each individually using resource blocks and cretaed storage disk using variables and counts in resource block
 
 - Link vm1 and sd1 and vm2 and sd2
-
+(Mot applicable)
 
 - Specify regions for vm1 and vm2 (any 2 different regions)
 Created two vms ib two different regions using alias in providers
@@ -14,6 +14,3 @@ Created two vms ib two different regions using alias in providers
 - Delete sd3
 deleted s3 in 2 ways :terraform destroy -target=resource.name 
     by removing the s3 in list of variables and terraform apply
-
-
-Grade : F
